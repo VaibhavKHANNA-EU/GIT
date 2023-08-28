@@ -1,6 +1,7 @@
 # GIT
 Configuring GIT
 <bir>
+
 // "~" This symbol means we are under the root directory 
 git config --global user.name "My name" //your account git hub name
 gir config --global user.email "someone@email.com"
@@ -55,8 +56,43 @@ Push command
 Push- upload local repo content to remote repo
 
  git push origin main
- 
 
+origin- is git hub repo
+main - branch name
+
+//cd.. change the directory 
+//mkdir name  create a new directory 
+ 
+ 
+Init Command
+
+init- used to create a new git repo
+
+git init
+
+ git remote add origin <-link->
+ git remote -v (to verify remote)
+ git branch (to check branch)
+ git branch -M main (to rename branch)
+git push origin main
+
+
+// git push -u origin main 
+don't need to repeat the again and again origin main if we use "-u" 
+
+
+WORK FLOW
+
+Local git
+
+Flow- GitHub repo - clone-change-add-commit-push
+
+
+
+Git Branches
+
+C1-----C2-----
+ 
 
 
 
